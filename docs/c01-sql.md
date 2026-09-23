@@ -1,0 +1,55 @@
+---
+title: 'C01. SQL — From Fundamentals to Advanced'
+---
+
+# C01. SQL — From Fundamentals to Advanced
+
+<div className="definition">SQL — From Fundamentals to Advanced matters because it connects data correctness with performance, operations and traceability. A senior Oracle Data Developer should be able to explain the concept, implement it safely, diagnose failures and prove the result after a change.</div>
+
+## Core concepts
+
+- **SELECT, projection, filtering and NULL semantics** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **joins, subqueries, EXISTS and set operators** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **CTEs, hierarchical queries and analytic functions** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **DML, MERGE and transaction boundaries** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **date/time handling and conversion safety** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **SQL patterns for reconciliation, incremental loading and DWH** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+
+## Key terminology
+
+- **projection** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **predicate** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **NULL** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **join** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **subquery** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **CTE** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **analytic function** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **MERGE** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+- **SARGable** — A core term in this chapter that should be understood both conceptually and through its effect on Oracle execution, data quality or operations.
+
+## Oracle example
+
+```sql
+SELECT a.account_id,
+       SUM(t.amount) AS total_amount,
+       ROW_NUMBER() OVER (ORDER BY SUM(t.amount) DESC) AS rn
+FROM accounts a
+JOIN bank_transaction t ON t.account_id = a.account_id
+WHERE t.posting_date >= DATE '2026-01-01'
+GROUP BY a.account_id;
+```
+
+
+## Practical checklist
+
+- Define the business grain or logical unit of work first.
+- Use explicit keys, predicates and conversions.
+- Validate functional correctness and operational/performance behavior.
+- For ETL/DWH, persist batch identifiers, timestamps, status, counts and rejects.
+- For production changes, document dependencies, tests and rollback.
+
+
+
+## DWH / Data Operations scenario
+
+A banking data flow uses this concept together with audit logging, reconciliation and impact analysis. The solution must be explainable, testable, restartable when applicable, and verifiable through SQL and metadata.
