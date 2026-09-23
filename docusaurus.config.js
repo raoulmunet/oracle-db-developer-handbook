@@ -36,7 +36,7 @@ const config = {
         {href:`https://github.com/${owner}/${repository}`, label:'GitHub', position:'right'},
       ],
     },
-    footer: {style:'dark', links:[{title:'Course',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} Raoul's Oracle Data Developer Handbook`},
+    footer: {style:'dark', links:[{title:'Course',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} - Raoul's Oracle Data Developer Handbook`},
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula, additionalLanguages:['sql','bash','java']},
   },
 };
