@@ -1,0 +1,4 @@
+:root {--ifm-color-primary:#17365d;--ifm-color-primary-dark:#143153;--ifm-color-primary-light:#2f5597;--ifm-code-font-size:92%;}
+.hero--primary{background:linear-gradient(135deg,#17365d,#2f5597)}
+.markdown h1{font-size:2.2rem}.markdown h2{margin-top:2.2rem}.theme-code-block{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.definition{border-left:4px solid #2f5597;padding:.8rem 1rem;background:#f5f8fc;margin:1rem 0}
