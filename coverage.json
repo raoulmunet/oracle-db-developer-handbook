@@ -1,0 +1,282 @@
+[
+  {
+    "chat": "C01",
+    "title_ro": "SQL — fundamental până la avansat",
+    "title_en": "SQL — From Fundamentals to Advanced",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C02",
+    "title_ro": "PL/SQL — fundamental până la avansat",
+    "title_en": "PL/SQL — From Fundamentals to Advanced",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C03",
+    "title_ro": "Transactions și concurență Oracle",
+    "title_en": "Oracle Transactions and Concurrency",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C04",
+    "title_ro": "OLTP",
+    "title_en": "OLTP",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C05",
+    "title_ro": "OLAP",
+    "title_en": "OLAP",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C06",
+    "title_ro": "Data Warehouse",
+    "title_en": "Data Warehouse",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C07",
+    "title_ro": "Slowly Changing Dimensions — SCD",
+    "title_en": "Slowly Changing Dimensions (SCD)",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C08",
+    "title_ro": "ETL / ELT",
+    "title_en": "ETL / ELT",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C09",
+    "title_ro": "Data Quality",
+    "title_en": "Data Quality",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C10",
+    "title_ro": "Oracle Optimizer",
+    "title_en": "Oracle Optimizer",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C11",
+    "title_ro": "Execution Plans",
+    "title_en": "Execution Plans",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C12",
+    "title_ro": "Indexuri Oracle",
+    "title_en": "Oracle Indexes",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C13",
+    "title_ro": "Statistics",
+    "title_en": "Oracle Statistics",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C14",
+    "title_ro": "Join Algorithms",
+    "title_en": "Join Algorithms",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C15",
+    "title_ro": "Partitioning",
+    "title_en": "Partitioning",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C16",
+    "title_ro": "Materialized Views",
+    "title_en": "Materialized Views",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C17",
+    "title_ro": "Database Objects",
+    "title_en": "Database Objects",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C18",
+    "title_ro": "Constraints și integritate",
+    "title_en": "Constraints and Data Integrity",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C19",
+    "title_ro": "Oracle Storage — nivel conceptual",
+    "title_en": "Oracle Storage — Conceptual Level",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C20",
+    "title_ro": "Oracle Architecture",
+    "title_en": "Oracle Architecture",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C21",
+    "title_ro": "Memory Architecture",
+    "title_en": "Oracle Memory Architecture",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C22",
+    "title_ro": "Redo / Undo",
+    "title_en": "Redo / Undo",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C23",
+    "title_ro": "Parsing și Bind Variables",
+    "title_en": "Parsing and Bind Variables",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C24",
+    "title_ro": "Optimizare SQL",
+    "title_en": "SQL Optimization",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C25",
+    "title_ro": "SQL Monitoring și diagnostic",
+    "title_en": "SQL Monitoring and Diagnostics",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C26",
+    "title_ro": "Optimizer Hints",
+    "title_en": "Optimizer Hints",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C27",
+    "title_ro": "Parallel Execution",
+    "title_en": "Parallel Execution",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C28",
+    "title_ro": "TEMP și operații costisitoare",
+    "title_en": "TEMP and Expensive Operations",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C29",
+    "title_ro": "Security",
+    "title_en": "Oracle Security",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C30",
+    "title_ro": "CDB / PDB — Oracle Multitenant",
+    "title_en": "CDB / PDB — Oracle Multitenant",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C31",
+    "title_ro": "Connectivity",
+    "title_en": "Oracle Connectivity",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C32",
+    "title_ro": "Backup / Recovery — conceptual",
+    "title_en": "Backup / Recovery — Conceptual",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C33",
+    "title_ro": "Data Modeling",
+    "title_en": "Data Modeling",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C34",
+    "title_ro": "ODI / ETL orchestration",
+    "title_en": "ODI / ETL Orchestration",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C35",
+    "title_ro": "CDC — Change Data Capture",
+    "title_en": "CDC — Change Data Capture",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C36",
+    "title_ro": "Batch processing",
+    "title_en": "Batch Processing",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C37",
+    "title_ro": "Reconciliation",
+    "title_en": "Reconciliation",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C38",
+    "title_ro": "Banking Data Concepts",
+    "title_en": "Banking Data Concepts",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C39",
+    "title_ro": "Data Lineage",
+    "title_en": "Data Lineage",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  },
+  {
+    "chat": "C40",
+    "title_ro": "Impact Analysis",
+    "title_en": "Impact Analysis",
+    "included": true,
+    "source_status": "consolidated_reconstructed"
+  }
+]
