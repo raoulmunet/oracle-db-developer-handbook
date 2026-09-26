@@ -1,6 +1,14 @@
-# Oracle Data Developer Handbook
+# Oracle Database Developer Guide
 
-English Docusaurus edition without interview question sections of the C01–C40 Oracle Data Developer course.
+A structured learning and reference guide for Oracle database and data development.
+
+The guide covers Oracle SQL, PL/SQL, transactions, OLTP/OLAP, Data Warehouse concepts, ETL/ODI, performance, architecture, data operations, banking data concepts, lineage and impact analysis.
+
+Its purpose is to provide a progressive learning path from SQL fundamentals to practical Oracle data engineering.
+
+## Published site
+
+https://raoulmunet.github.io/oracle-db-developer-handbook/
 
 ## Local run
 
@@ -20,9 +28,6 @@ npm run serve
 
 ## GitHub Pages
 
-1. Create a GitHub repository (for example `oracle-db-developer-handbook`).
-2. Push this project to `main`.
-3. In **Settings → Pages**, choose **GitHub Actions** as the source.
-4. The included workflow builds and deploys the site automatically.
+The included GitHub Actions workflow builds and deploys the site automatically after each push to `main`.
 
-`docusaurus.config.js` derives the GitHub owner and repository name from GitHub Actions environment variables, so project pages and `<username>.github.io` repositories both work without hard-coding your username.
+`docusaurus.config.js` derives the GitHub owner and repository name from GitHub Actions environment variables, so project pages and `<username>.github.io` repositories both work without hard-coding the username.
