@@ -31,12 +31,12 @@ const config = {
     navbar: {
       title: 'Oracle Database Developer Guide',
       items: [
-        {type:'docSidebar', sidebarId:'courseSidebar', position:'left', label:'Course'},
+        {type:'docSidebar', sidebarId:'courseSidebar', position:'left', label:'Guide'},
         {to:'/glossary', label:'Glossary', position:'left'},
         {href:`https://github.com/${owner}/${repository}`, label:'GitHub', position:'right'},
       ],
     },
-    footer: {style:'dark', links:[{title:'Course',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} · Oracle Database Developer Guide`},
+    footer: {style:'dark', links:[{title:'Guide',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} · Oracle Database Developer Guide`},
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula, additionalLanguages:['sql','bash','java']},
   },
 };
