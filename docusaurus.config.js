@@ -7,8 +7,8 @@ const isUserSite = repository === `${owner}.github.io`;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Oracle Data Developer Handbook',
-  tagline: 'Oracle SQL, PL/SQL, DWH, ETL/ODI, Performance and Data Operations',
+  title: 'Oracle Database Developer Guide',
+  tagline: 'A structured path from SQL fundamentals to Oracle data engineering',
   favicon: 'img/favicon.ico',
   url: `https://${owner}.github.io`,
   baseUrl: isUserSite ? '/' : `/${repository}/`,
@@ -29,14 +29,14 @@ const config = {
   ]],
   themeConfig: {
     navbar: {
-      title: 'Oracle Data Developer',
+      title: 'Oracle Database Developer',
       items: [
         {type:'docSidebar', sidebarId:'courseSidebar', position:'left', label:'Course'},
         {to:'/glossary', label:'Glossary', position:'left'},
         {href:`https://github.com/${owner}/${repository}`, label:'GitHub', position:'right'},
       ],
     },
-    footer: {style:'dark', links:[{title:'Course',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} - Raoul's Oracle Data Developer Handbook`},
+    footer: {style:'dark', links:[{title:'Course',items:[{label:'Start',to:'/intro'},{label:'Glossary',to:'/glossary'}]}], copyright:`Copyright © ${new Date().getFullYear()} · Oracle Database Developer Guide`},
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula, additionalLanguages:['sql','bash','java']},
   },
 };
